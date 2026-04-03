@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מרכז מונדיאל 2026</title>
+  <style>
+    body { font-family: 'Heebo', Arial, sans-serif; margin: 0; padding: 0; background: linear-gradient(to bottom, #f0f4f8, #d9e2ec); color: #333; line-height: 1.6; }
+    .header { background: linear-gradient(135deg, #006d77 0%, #83c5be 100%); color: white; padding: 2rem 1rem; text-align: center; box-shadow: 0 4px 20px rgba(0,109,119,0.3); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+    .section { background: white; margin: 1.5rem 0; padding: 1.5rem; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
+    .section h2 { color: #006d77; border-bottom: 3px solid #e29578; padding-bottom: 0.5rem; margin-bottom: 1rem; }
+    .match { display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: #f8f9fa; border-radius: 10px; margin-bottom: 1rem; border-left: 5px solid #006d77; }
+    .score { font-size: 1.8em; font-weight: bold; color: #006d77; min-width: 60px; text-align: center; }
+    .badge { padding: 0.4rem 0.8rem; background: #e29578; color: white; border-radius: 20px; font-size: 0.8rem; font-weight: bold; }
+    .teams-grid, .insights-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+    .team-card, .insight-card { background: linear-gradient(145deg, #ffffff, #f0f0f0); padding: 1.5rem; border-radius: 15px; border: 1px solid #e0e0e0; }
+    .table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    .table th, .table td { padding: 0.8rem; text-align: right; border-bottom: 1px solid #eee; }
+    .table th { background: #f8f9fa; font-weight: bold; color: #006d77; }
+    .floating-action { position: fixed; bottom: 20px; right: 20px; background: #006d77; color: white; border: none; border-radius: 50px; padding: 15px 25px; font-size: 1rem; box-shadow: 0 10px 30px rgba(0,109,119,0.4); cursor: pointer; z-index: 1000; }
+    @media (max-width: 768px) { .container { padding: 0.5rem; } .match { flex-direction: column; text-align: center; gap: 0.5rem; } }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>🏆 מרכז מונדיאל 2026 🏆</h1>
+    <p>אתר מלא בעברית • 48 נבחרות • 104 משחקים • מוכן לצפייה משותפת</p>
+  </header>
+
+  <div class="container">
+    <section class="section">
+      <h2>🔴 מרכז המשחקים</h2>
+      <div class="match">
+        <div>
+          <strong>מקסיקו</strong><br>
+          <small>אצטקה, מקסיקו סיטי</small>
+        </div>
+        <div class="score">2:1</div>
+        <div>
+          <strong>יפן</strong><br>
+          <small>57% החזקה</small>
+        </div>
+        <span class="badge">הסתיים</span>
+      </div>
+      <div class="match">
+        <div>
+          <strong>ארה"ב</strong><br>
+          <small>לוס אנג'לס • xG 1.5</small>
+        </div>
+        <div class="score">1:1</div>
+        <div>
+          <strong>פרגוואי</strong><br>
+          <small>דקה 82</small>
+        </div>
+        <span class="badge">מתנהל</span>
+      </div>
+      <div class="match">
+        <div>
+          <strong>ברזיל</strong><br>
+          <small>יוסטון</small>
+        </div>
+        <div class="score">3:0</div>
+        <div>
+          <strong>קנדה</strong><br>
+          <small>66% החזקה</small>
+        </div>
+        <span class="badge">הסתיים</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>📊 טבלאות בתי נבחרות</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>בית א'</th>
+            <th>מש'</th>
+            <th>יחס</th>
+            <th>נק'</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>מקסיקו</td><td>3</td><td>6:2</td><td>7</td></tr>
+          <tr><td>יפן</td><td>3</td><td>4:3</td><td>5</td></tr>
+          <tr><td>שבדיה</td><td>3</td><td>2:4</td><td>3</td></tr>
+          <tr><td>קמרון</td><td>3</td><td>1:4</td><td>1</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>⚽ נבחרות וסגלים</h2>
+      <div class="teams-grid">
+        <div class="team-card">
+          <h3>🇦🇷 ארגנטינה</h3>
+          <p>מערך: 4-3-3 • מועמדת מובילה</p>
+          <ul>
+            <li>א. מרטינס</li>
+            <li>רומרו</li>
+            <li>מקאליסטר</li>
+            <li>לאוטרו</li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <h3>🇫🇷 צרפת</h3>
+          <p>מערך: 4-2-3-1 • טופ 5</p>
+          <ul>
+            <li>מניאן</li>
+            <li>תאו הרננדס</li>
+            <li>טשואמני</li>
+            <li>אמבפה</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>🏅 מלכי שערים</h2>
+      <table class="table">
+        <thead>
+          <tr><th>שחקן</th><th>נבחרת</th><th>שערים</th><th>xG</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>ק. אמבפה</td><td>צרפת</td><td>5</td><td>4.1</td></tr>
+          <tr><td>ויניסיוס</td><td>ברזיל</td><td>4</td><td>3.0</td></tr>
+          <tr><td>ל. מרטינס</td><td>ארגנטינה</td><td>4</td><td>2.7</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>🎯 תובנות משחק</h2>
+      <div class="insights-grid">
+        <div class="insight-card">
+          <h3>משחק הערב</h3>
+          <p>ארגנטינה מול צרפת הוא המשחק עם הכי הרבה כוכבים, קצב בעיטות גבוה ופוטנציאל לכובשים משני הצדדים.</p>
+        </div>
+        <div class="insight-card">
+          <h3>נבחרת בכושר</h3>
+          <p>ברזיל מגיעה עם רצף התקפי חזק ויצירת מצבים גבוהה, ולכן שווה לעקוב אחרי משחקי הנוקאאוט שלה.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>🏟️ ערים מארחות</h2>
+      <div class="teams-grid">
+        <div class="team-card">
+          <h3>מקסיקו סיטי</h3>
+          <p>אצטקה • מתאימה למשחקי פתיחה ואווירה אדירה</p>
+        </div>
+        <div class="team-card">
+          <h3>לוס אנג'לס</h3>
+          <p>אצטדיון גדול • קהל בינלאומי</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <button class="floating-action" onclick="toggleFriends()">
+    👥 מצב חברים
+  </button>
+
+  <script>
+    function toggleFriends() {
+      alert('מצב חברים מופעל! אורי בחר ברזיל, דניאל בחר ארגנטינה, יואב בחר צרפת. שווה לצפות יחד!');
+    }
+  </script>
+</body>
+</html>
